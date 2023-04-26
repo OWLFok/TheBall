@@ -8,6 +8,8 @@ Version 2.0 ( Ссылка на ознакомление: https://www.mozilla.or
 
 Шрифт FallingSky - SIL OPEN FONT LICENSE Version 1.1 ( Ссылка на ознакомление: http://scripts.sil.org/OFL )
 
+Игровой движок Godot - MIT LICENSE ( Ссылка на ознакомление: https://github.com/godotengine/godot/blob/master/LICENSE.txt )
+
 <b>Компиляция</b>
 
 1) Скачать zip-архив из вкладки Releases себе на компьютер
