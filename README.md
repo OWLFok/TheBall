@@ -12,7 +12,7 @@ Version 2.0 ( Ссылка на ознакомление: https://www.mozilla.or
 
 <b>Компиляция</b>
 
-1) Скачать zip-архив из вкладки Releases себе на компьютер
+1) Скачать zip-архив из вкладки Releases себе на компьютер (или используйте команду git clone https://github.com/OWLFok/TheBall.git для получения последнего релиза)
 2) Скачать LTS версию движка Godot (рекомендую версию 3.5.2)
 3) Откройте проект в редакторе
 4) Для дальнейшей компиляции и получения исполняемого файла, ознакомьтесь с инструкцией в документации Godot: https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_android.html
