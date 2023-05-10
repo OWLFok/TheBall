@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Textures/Portal.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/Portal.gd" type="Script" id=2]
+
+[node name="Portal" type="Sprite"]
+scale = Vector2( 0.15, 0.15 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="Portal" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Portal"]
+polygon = PoolVector2Array( -673.333, -73.3333, -426.667, 26.6667, -286.667, 666.667, -113.333, 473.333, 540, 533.333, 400, 306.667, 666.667, -293.333, 406.667, -233.333, -80, -666.667, -106.667, -406.667 )
+
+[connection signal="body_entered" from="Portal" to="." method="_on_Portal_body_entered"]
