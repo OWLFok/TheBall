@@ -1,0 +1,77 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "RigidBody2D",
+"class": "Player",
+"language": "GDScript",
+"path": "res://Scripts/Ball.gd"
+} ]
+_global_script_class_icons={
+"Player": ""
+}
+
+[application]
+
+config/name="TheBall"
+run/main_scene="res://UI/MainUi.tscn"
+config/icon="res://Textures/Other/logo.png"
+
+[global]
+
+etc=false
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[input]
+
+reset={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":82,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+Git={
+"deadzone": 0.5,
+"events": [  ]
+}
+Vk={
+"deadzone": 0.5,
+"events": [  ]
+}
+Play={
+"deadzone": 0.5,
+"events": [  ]
+}
+License={
+"deadzone": 0.5,
+"events": [  ]
+}
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[mono]
+
+project/assembly_name="First3D"
+
+[physics]
+
+common/enable_pause_aware_picking=true
+2d/physics_engine="GodotPhysics"
+2d/thread_model=2
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+2d/snapping/use_gpu_pixel_snap=true
+vram_compression/import_etc=true
